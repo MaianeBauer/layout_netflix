@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --red: #ff1617;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #050505;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header.img-direita {
+  flex-direction: row;
+  padding-right: 10px;
+  margin-left: 25px;
+  max-width: 350px;
+  margin-top: -155px;
+}
+
+.container {
+  margin: auto;
+  padding: 24px;
+  /* max-width: 768px; */
+  background-image: url(./netflix.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 420px;
+  /* flex-direction: row; */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 48px 0;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--red);
+
+  padding-left: 35px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+
+  padding-left: 55px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+
+  background-color: var(--red);
+  border: solid 2px var(--red);
+}
+
+.button--outline {
+  background-color: transparent;
+  border: solid 2px #fff;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  /* border: dotted 1px #fff; */
+  gap: 16px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  font-size: 16px;
+  color: #fff;
+  justify-items: center;
+  padding-left: 150px;
+
+  span {
+    padding-left: 16px;
+  }
+}
+.secao-esquerda {
+  flex-direction: row;
+}
+div.img-esquerda {
+  margin: -400px;
+  padding-left: 350px;
+}
+.img-esquerda img {
+  max-width: 950px;
+  /* align-items: end; */
+  margin-left: 550px;
+  display: flex;
+  justify-content: first baseline;
+  border-radius: 0%;
+  width: inherit;
+  height: inherit;
+  inset: 0;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  /* border-color: rgba(0, 0, 0, 0.2);
+   box-shadow: #000000; */
+}
