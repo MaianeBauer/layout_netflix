@@ -17,7 +17,7 @@ Filmes/Séries: Listagem de atores, simulando o layout da Netflix.
 Clone o repositório:
 bash
 Copiar código
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/MaianeBauer/layout_netflix
 Navegue até o diretório do projeto:
 
 bash
